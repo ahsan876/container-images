@@ -80,7 +80,6 @@ Default output format [None]:
 
 | Name            | Description  |
 | :-------------: | :-------------: |
-
 | appliance_url   | appliance_url is the URL of your conjur application. e.g 'https://conjur.yourorg.com'|
 
 | account         | Conjur account of your conjur application i.e  account being created after the conjur application is deployed. e.g "dev", "prod", "demo" etc| 

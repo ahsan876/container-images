@@ -81,17 +81,11 @@ Default output format [None]:
 | Name            | Description  |
 | :-------------: | :-------------: |
 | appliance_url   | appliance_url is the URL of your conjur application. e.g 'https://conjur.yourorg.com'|
-
 | account         | Conjur account of your conjur application i.e  account being created after the conjur application is deployed. e.g "dev", "prod", "demo" etc| 
-
 | service_id      | IAM Authenticator service ID to identify each service. e.g 'dev', 'prod', 'sysadmins' etc |
-
 | host_id         | The host ID needs to match the AWS ARN of the role we wish to authenticate e.g 'host/cust-portal/<aws-account-id>/<iam-role-name>'|
-
 | cert_file       | cert_file is associated with account which is creadted in conjur application along witht the API key e.g 'conjur-cert.pem'. |
-
 | iam_role_name   | IAM role name of AWS Authenticator |
-
 | ssl_verify      | binary value True or False for untrusted ssl certificate |
 
 ## Output
